@@ -1,0 +1,18 @@
+--DESCRIPTION--
+Minigames is a map with a variety of activities that players can freely enjoy. Activities reward items which can be used to fight monsters or other players.
+Teleport pads are represented by a yellow light that instantly takes a player to another location.
+Player combat is disabled except in areas where players must fight monsters or fight eachother (PvP Arena)
+
+--ACTIVITY LIST--
+PvP Arena - Contains many items, but cannot be escaped unless the player dies. This prevents one player from accumulating too many powerful items.
+Hedge Maze - Get to the middle for items and a teleport out.
+Bishop Challenge - Parkour course that requires a player to stay on only dark-squares to progress.
+Ender Dragon - Rewards XP on defeat, respawns automatically after a time.
+Big Ben Dropper - Players slowly fall down a tower, avoiding red blocks that respawn them on touch.
+Various parkour is stationed around spawn.
+
+--USEFUL COMMANDS--
+/scoreboard players set refill_target timer <time>: Sets the amount of time before chests refill in Minecraft ticks (20/s). Default 6000 (20ticks/sec*60secs/min*5min)
+
+Win Geigerman, 2023
+Call (919)-841-3882 or email contessa@email.unc.edu for any questions/issues

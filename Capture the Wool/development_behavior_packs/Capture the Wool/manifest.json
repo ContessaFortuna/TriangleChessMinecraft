@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Made for Triangle Chess by Win Geigerman",
+      "name": "Capture the Wool",
+      "uuid":"c5096d0f-beaa-429c-950e-2d24cbe83021",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 19, 60]
+    },
+    "modules":
+      [
+        {
+          "description": "CTW Main",
+            "type": "data",
+            "uuid": "d5bd18ee-0edb-4e1e-9b9d-96a8bccaaeb9",
+            "version": [1, 0, 0]
+        }
+      ]
+  }

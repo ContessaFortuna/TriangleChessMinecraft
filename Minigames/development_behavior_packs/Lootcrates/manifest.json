@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Made for Triangle Chess by Win Geigerman",
+      "name": "Lootcrates",
+      "uuid":"2de7b1f3-eac8-4900-96b7-fbb27c1fd9b1",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 19, 60]
+    },
+    "modules":
+      [
+        {
+          "description": "Lootcrates Main",
+            "type": "data",
+            "uuid": "c7087051-f2bb-4858-a245-45b376c300f4",
+            "version": [1, 0, 0]
+        }
+      ]
+  }

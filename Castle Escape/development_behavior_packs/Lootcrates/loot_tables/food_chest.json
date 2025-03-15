@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:apple"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:string"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:cooked_beef"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:shield"
+        }
+      ]
+    }
+  ]
+}

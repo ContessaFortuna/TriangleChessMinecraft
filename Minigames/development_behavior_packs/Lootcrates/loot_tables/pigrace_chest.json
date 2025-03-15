@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ]
+    }
+  ]
+}

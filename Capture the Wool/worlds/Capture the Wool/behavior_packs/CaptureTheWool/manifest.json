@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Capture The Wool",
+		"description": "Developed by Windom Geigerman for Triangle Chess",
+		"uuid": "c8c3239f-027f-4e80-890f-880eba65027d",
+		"min_engine_version": [1, 19, 70],
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack Module",
+			"type": "data",
+			"uuid": "cd2cd41a-1849-410e-8f0a-5d30fde4bd9a",
+			"version": [1, 0, 0]
+		}
+  ]
+}

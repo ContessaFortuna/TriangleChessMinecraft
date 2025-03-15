@@ -1,0 +1,159 @@
+--DESCRIPTION--
+Find the Button is a map where players must press the hidden button in each level to progress.
+There are 25 levels to complete.
+
+Win Geigerman and Adam Schrand, 2025
+Call (919)-841-3882, email wgeigerman@gmail.com, or email adam.schrand@gmail.com for any questions/issues
+
+
+--- LEVELS ---
+
+Level 1: House
+Button Coordinates: -12, 8, 18
+[HINTS]
+On the house
+Above a window
+
+Level 2: River
+Button Coordinates: -14, 7, 0
+[HINTS]
+On the mountain
+In the water
+
+Level 3: Market stalls
+Button Coordinates: 14, 3, 3
+[HINTS]
+Beside a stall
+Under some note blocks
+
+Level 4: Igloo
+Button Coordinates: 25, 8, 25
+[HINTS]
+Somewhere up high
+By a tree
+
+Level 5: Camping
+Button Coordinates: -4, 10, 28
+[HINTS]
+Somewhere up high
+On a white block
+
+Level 6: Sky islands
+Button Coordinates: -30, 28, 33
+[HINTS]
+By the bricks
+On a floor
+
+Level 7: Park at night
+Button Coordinates: -37, 10, 8
+[HINTS]
+Somewhere up high
+Atop a tree
+
+Level 8: Maze
+Button Coordinates: -22, 4, -11
+[HINTS]
+Follow the right hand side
+In the corner of the bottom floor
+
+Level 9: Forest path
+Button Coordinates: -11, 5, -15
+[HINTS]
+Ground level
+On a tree
+
+Level 10: Apartment
+Button Coordinates: 22, 15, -27
+[HINTS]
+On the green floor
+In the drain
+
+Level 11: Desert house
+Button Coordinates: 33, 13, -29
+[HINTS]
+Somewhere up high
+Atop a fence post
+
+Level 12: Swimming pool
+Button Coordinates: 26, 3, -5
+[HINTS]
+Take a dive
+Under a pool float
+
+Level 13: Watermill
+Button Coordinates: 36, 4, 17
+[HINTS]
+Somewhere indoors
+Beneath a trapdoor
+
+Level 14: Bridge
+Button Coordinates: 35, 12, 40
+[HINTS]
+On the bridge
+Look up
+
+Level 15: Fields
+Button Coordinates: 12, 9, 38
+[HINTS]
+Swim the secret tunnel
+Look up
+
+Level 16: Hobbit hole
+Button Coordinates: 2, 9, 55
+[HINTS]
+Somewhere indoors
+Look up in a corner
+
+Level 17: Football
+Button Coordinates: -31, 9, 44
+[HINTS]
+Somewhere up high
+Behind the scoreboard
+
+Level 18: Lighthouse
+Button Coordinates: -58, 10, 49
+[HINTS]
+Somewhere up high
+On the rim
+
+Level 19: Green hill
+Button Coordinates: -59, 8, 35
+[HINTS]
+Hidden in greenery
+Beneath a shrub on the wall
+
+Level 20: Cabin
+Button Coordinates: -56, 8, -8
+[HINTS]
+On the side
+On a tree
+
+Level 21: Mesa
+Button Coordinates: -51, 11, -22
+[HINTS]
+Somewhere down low
+Look up
+
+Level 22: Island
+Button Coordinates: -51, 4, -43
+[HINTS]
+Somewhere down low
+Swim the secret tunnel
+
+Level 23: Temple
+Button Coordinates: -33, 13, -52
+[HINTS]
+Somewhere up high
+On the side of the temple roof
+
+Level 24: Crimson forest
+Button Coordinates: -4, 7, -42
+[HINTS]
+Black button on blackstone
+Hidden among the gold
+
+Level 25: Ocean ruins
+Button Coordinates: 2, 8, -54
+[HINTS]
+Somewhere up high
+Dark oak button on dark oak plank

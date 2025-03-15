@@ -1,0 +1,13 @@
+
+Network Stats for the last 997 seconds:
+
+Total Sent Spatial Packets: 221670
+Total Requested to Send Spatial Packets: 735971
+Total Sent Actor Motion Hints Packets: 5410
+Percentage of Usual Bandwidth Used: 30.59%
+
+
+Total Sent: 0, 0B (0B)
+
+Total Received: 0, 0B (0B)
+

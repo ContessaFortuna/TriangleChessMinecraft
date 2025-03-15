@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 15,
+        "max": 20
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    }
+  ]
+}

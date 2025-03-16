@@ -1,5 +1,6 @@
 --DESCRIPTION--
 Find the Button is a map where players must press the hidden button in each level to progress.
+Each level contains a HINT sign with the first hint listed.
 There are 25 levels to complete.
 
 Win Geigerman and Adam Schrand, 2025
@@ -123,15 +124,15 @@ Hidden in greenery
 Beneath a shrub on the wall
 
 Level 20: Cabin
-Button Coordinates: -56, 8, -8
+Button Coordinates: -59, 6, 0
 [HINTS]
-On the side
-On a tree
+By the cabin
+In a ditch cabinside
 
 Level 21: Mesa
 Button Coordinates: -51, 11, -22
 [HINTS]
-Somewhere down low
+On the bridge
 Look up
 
 Level 22: Island

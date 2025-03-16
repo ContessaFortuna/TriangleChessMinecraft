@@ -15,6 +15,11 @@
         {
           "type": "item",
           "weight": 5,
+          "name": "minecraft:fermented_spider_eye"
+        },
+        {
+          "type": "item",
+          "weight": 5,
           "name": "minecraft:glass_bottle"
         },
         {

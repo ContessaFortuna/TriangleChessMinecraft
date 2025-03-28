@@ -28,5 +28,7 @@ execute if entity @s[name=enchanting_chest] run loot replace block ~ ~ ~ slot.co
 
 execute if entity @s[name=weird_chest] run loot replace block ~ ~ ~ slot.container 0 loot "weird_chest"
 
+execute if entity @s[name=horse_chest] run loot replace block ~ ~ ~ slot.container 0 loot "horse_chest"
+
 particle minecraft:critical_hit_emitter ~ ~1.5 ~
 scoreboard players set @s timer 0

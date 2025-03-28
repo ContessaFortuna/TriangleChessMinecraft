@@ -24,4 +24,6 @@ execute at @e[name=potion_chest] run loot replace block ~ ~1 ~ slot.container 0 
 
 execute at @e[name=splash_potion_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "splash_potion_chest"
 
+execute at @e[name=horse_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "horse_chest"
+
 execute at @e[type=armor_stand] run particle minecraft:critical_hit_emitter ~ ~2.5 ~

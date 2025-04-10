@@ -6,3 +6,4 @@ clear @a[m=survival] concrete
 clear @a[m=survival] birch_sign
 kill @e[type=item,name="Birch Sign"]
 function candles
+function nether_star

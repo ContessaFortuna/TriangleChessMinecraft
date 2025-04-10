@@ -30,5 +30,7 @@ execute if entity @s[name=music_chest] run loot replace block ~ ~ ~ slot.contain
 
 execute if entity @s[name=farming_chest] run loot replace block ~ ~ ~ slot.container 0 loot "farming_chest"
 
+execute if entity @s[name=trident_chest] run loot replace block ~ ~ ~ slot.container 0 loot "trident_chest"
+
 particle minecraft:critical_hit_emitter ~ ~1.5 ~
 scoreboard players set @s timer 0

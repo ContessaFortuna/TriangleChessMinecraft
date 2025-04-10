@@ -20,12 +20,14 @@ execute at @e[name=potion_chest] run loot replace block ~ ~1 ~ slot.container 0 
 
 execute at @e[name=splash_potion_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "splash_potion_chest"
 
-execute if entity @s[name=enchanting_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "enchanting_chest"
+execute at @e[name=enchanting_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "enchanting_chest"
 
-execute if entity @s[name=weird_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "weird_chest"
+execute at @e[name=weird_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "weird_chest"
 
-execute if entity @s[name=pigrace_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "pigrace_chest"
+execute at @e[name=pigrace_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "pigrace_chest"
 
-execute if entity @s[name=farming_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "farming_chest"
+execute at @e[name=farming_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "farming_chest"
+
+execute at @e[name=trident_chest] run loot replace block ~ ~1 ~ slot.container 0 loot "trident_chest"
 
 execute at @e[type=armor_stand] run particle minecraft:critical_hit_emitter ~ ~2.5 ~

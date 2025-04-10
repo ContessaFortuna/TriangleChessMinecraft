@@ -5,3 +5,4 @@ execute as @a[tag=reset] run function reset_team
 clear @a[m=survival] concrete
 clear @a[m=survival] birch_sign
 kill @e[type=item,name="Birch Sign"]
+function candles

@@ -1,0 +1,28 @@
+--DESCRIPTION--
+Capture the Wool is a capture-the-flag style game split into 2 sections: the preparation, and the combat (generally split over Thursday and Friday of camp)
+When players join in, they will be greeted with doors that let them select a team they were assigned previously.
+Day 1 goals: Craft armor, craft weapons, and build a base to protect the pedestal.
+In the center of the map, there are invisible walls sectioning the map into 4 quadrants (1 for each team). Attempting to cross these walls is death.
+
+After a day of preparation, teams will fight eachother and attempt to steal the other teams' wools.
+These are run in the form of 6 short matches with varying amount of wool required to win.
+
+--AFTER DAY 1 PROCEDURE--
+Type "/function chests" (no quotes) into console to spawn the starter kit chests near each team's base
+Create six copies of the original world
+
+--MATCH BEGIN PROCEDURE--
+Type "/function match_begin" (no quotes), which teleports everyone to their team spawn, puts the walls down, and begins the match.
+Announcements are made whenever a team gets another wool, use this to determine victory.
+
+--USEFUL COMMANDS--
+/tag <player name> add reset | Sends a player back to spawn to allow them to re-select their team
+/function team_list | Lists the players on each team to more easily fix errors (in-game only)
+/function chests | Spawns chests with iron gear near each team's base
+/function match_begin | Starts a match.
+/function tpall_spawn | Teleports all players to their team spawn.
+/function walls_up | Disables PvP and puts the walls up.
+/function walls_down | Enables PvP and puts the walls down.
+
+Win Geigerman, 2023
+Call (919)-841-3882 for any questions/issues

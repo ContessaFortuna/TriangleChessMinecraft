@@ -1,0 +1,23 @@
+!! BEFORE RUNNING A SERVER, RIGHT CLICK FIREWALL_SETUP.BAT AND RUN AS ADMINISTRATOR !!
+
+-Triangle Chess Minecraft Guide-
+
+Each world folder has 3 components: world, bedrock-server, and server.properties
+To run a server, double click bedrock-server in one of the world folders
+
+You may use commands by clicking on the server command line and typing in the command. Omit the leading slash (/) when using the command line.
+Fields within arrows (< >) are parameters and should be filled with relevant information when using a command.
+Player names can also be replaced with "@a" to refer to ALL players. For example "/tp @a chief" would teleport all players to chief
+
+Commands:
+/list: gets a list of player names
+/tp <player 1 name> <player 2 name>: teleports player 1 to player 2
+/gamemode <gamemode name> <player>: sets given player to that gamemode. Options are survival, adventure, and creative
+/difficulty <difficulty name>: sets server difficulty. Peaceful for no harmful mobs, easy/normal/hard for harmful mobs with varying strength
+/time set <day/night>: sets to day or night
+/weather clear: stops rain
+
+To close a server, simply X out of the console or run /stop
+
+-Win Geigerman
+Call (919)-841-3882 or email contessa@email.unc.edu for any questions/issues

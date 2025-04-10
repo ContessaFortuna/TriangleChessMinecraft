@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 10,
+        "max": 20
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:blaze_rod"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:glass_bottle"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:sugar"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:glistering_melon_slice"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:phantom_membrane"
+        }
+      ]
+    }
+  ]
+}

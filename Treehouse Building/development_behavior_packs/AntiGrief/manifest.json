@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Made for Triangle Chess by Win Geigerman",
+      "name": "AntiGrief",
+      "uuid":"1aa1c7f4-d476-4a3c-978a-4d82462935b3",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 19, 60]
+    },
+    "modules":
+      [
+        {
+          "description": "AntiGrief Main",
+            "type": "data",
+            "uuid": "af59cca9-089a-45a9-b974-a3ab51b9bb47",
+            "version": [1, 0, 0]
+        }
+      ]
+  }

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.snow_walker": {
+      "textures": [ "Array.base[query.variant]" ],
+      "arrays": {
+        "textures": {
+          "Array.base": [
+            "Texture.snow_walker1",
+            "Texture.snow_walker2",
+            "Texture.snow_walker3"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ]
+    }
+  }
+}

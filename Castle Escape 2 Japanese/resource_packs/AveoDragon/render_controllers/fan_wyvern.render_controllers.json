@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.fan_wyvern": {
+      "arrays": {
+        "textures": {
+          "Array.normal": [ "Texture.fan_wyvern0", "Texture.fan_wyvern1", "Texture.fan_wyvern2", "Texture.fan_wyvern3", "Texture.fan_wyvern4", "Texture.fan_wyvern5" ],
+          "Array.saddled": [ "Texture.fan_wyvern0_saddled", "Texture.fan_wyvern1_saddled", "Texture.fan_wyvern2_saddled", "Texture.fan_wyvern3_saddled", "Texture.fan_wyvern4_saddled", "Texture.fan_wyvern5_saddled" ],
+          "Array.armored": [ "Texture.fan_wyvern0_armored", "Texture.fan_wyvern1_armored", "Texture.fan_wyvern2_armored", "Texture.fan_wyvern3_armored", "Texture.fan_wyvern4_armored", "Texture.fan_wyvern5_armored" ],
+          "Array.saddledarmored": [ "Texture.fan_wyvern0_armoredsaddled", "Texture.fan_wyvern1_armoredsaddled", "Texture.fan_wyvern2_armoredsaddled", "Texture.fan_wyvern3_armoredsaddled", "Texture.fan_wyvern4_armoredsaddled", "Texture.fan_wyvern5_armoredsaddled" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ 
+        "query.is_sheared && query.is_saddled ? Array.saddledarmored[query.variant] : (query.is_sheared ? Array.armored[query.variant] : (query.is_saddled ? Array.saddled[query.variant] : Array.normal[query.variant]))"
+      ]
+    }
+  }
+}

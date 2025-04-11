@@ -1,0 +1,12 @@
+﻿entity.goodlord:fan_wyvern.name=Aveo Wyvern
+entity.goodlord:aveo_dragon.name=Aveo Dragon
+entity.goodlord:aveo_drake.name=Aveo Drake
+entity.goodlord:snow_walker.name=Snow Walker
+item.spawn_egg.entity.goodlord:fan_wyvern.name=Aveo Wyvern
+item.spawn_egg.entity.goodlord:aveo_dragon.name=Aveo Dragon
+item.spawn_egg.entity.goodlord:aveo_drake.name=Aveo Drake
+item.spawn_egg.entity.goodlord:snow_walker.name=Snow Walker
+action.hint.exit.goodlord:fan_wyvern=Tap sneak to dismount
+action.hint.exit.goodlord:aveo_dragon=Tap sneak to dismount
+action.hint.exit.goodlord:aveo_drake=Tap sneak to dismount
+item.goodlord:dragon_armor.name=Netherite Dragon Armor

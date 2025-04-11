@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Aveo Dragon (behavior)",
+    "description": "Aveo the (sometimes) friendly wyvern",
+    "uuid": "9a831caa-fa76-44fd-9c2f-f5510812f878",
+    "version": [6, 8, 13]    
+  },
+  "modules": [
+    {
+      "description": "Chairs",
+      "type": "data",
+      "uuid": "1038d1ec-f237-4972-ad39-d75908c61ba4",
+      "version": [6, 8, 13]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a0588ee1-c918-4edc-beef-8ae6744ee171",
+      "version": [6, 8, 13]
+    }
+  ]
+}

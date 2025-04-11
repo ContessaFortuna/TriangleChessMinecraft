@@ -1,0 +1,126 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.aveo_drake": {
+      "initial_state" : "walking",
+      "states": {
+        "jumping": {
+          "transitions": [
+            {
+              "wind_sound": "q.ground_speed > 10 && math.random_integer(1,15) == 3 && q.vertical_speed < 0"
+            },
+            {
+              "slow_fall": "!q.is_on_ground"
+            },
+            {
+              "walking": "query.is_on_ground"
+            }
+          ],
+          "on_entry": [
+            "/execute @p[rx=-65,rxm=-90] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s levitation 2 34 true",
+            "/execute @p[rx=-35,rxm=-65] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s levitation 2 15 true",
+            "/execute @p[rx=-25,rxm=-35] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s levitation 1 5 true",
+            "/execute @p[rx=-15,rxm=-25] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s levitation 1 0 true",
+            "/execute @p[rx=-5,rxm=-15] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s levitation 1 0 true",
+            "/execute @p[rx=5,rxm=-5] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s slow_falling 2 23 true",
+            "/execute @p[rx=85,rxm=5] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s slow_falling 1 0 true",
+            "/playsound mob.drake.stomp @a[r=7]"
+          ]
+        },
+        "wind_sound": {
+          "transitions": [
+            {
+              "slow_fall": "!q.is_on_ground"
+            },          
+            {
+              "walking": "q.is_on_ground"
+            }
+          ],
+          "on_entry": [
+            "/playsound goodlord.dragon_wind @a[r=7]"
+          ]
+        },   
+        "slow_fall": {
+          "transitions": [
+            {
+              "wind_sound": "q.ground_speed > 10 && math.random_integer(1,20) == 3 && q.vertical_speed < 0"
+            },          
+            {
+              "slow_fall2": "!q.is_on_ground"
+            },
+            {
+              "walking": "query.is_on_ground"
+            }
+          ],
+          "on_entry": [
+            "/execute @p[rx=35,rxm=-90] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s slow_falling 2 30 true",
+            "/execute @p[rx=85,rxm=35] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s slow_falling 2 1 true"            
+          ]
+        },
+        "slow_fall2": {
+          "transitions": [
+            {
+              "slow_fall": "!q.is_on_ground"
+            },          
+            {
+              "walking": "query.is_on_ground"
+            }
+          ],
+          "on_entry": [
+            "/execute @p[rx=35,rxm=-90] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s slow_falling 2 30 true",
+            "/execute @p[rx=85,rxm=35] ~ ~ ~ execute @e[r=3,type=goodlord:aveo_drake] ~ ~ ~ effect @s slow_falling 2 1 true"            
+          ]
+        },        
+        "walking": {
+          "transitions": [
+            {
+              "jumping": "q.vertical_speed > 12 && q.has_rider && !q.is_on_ground"
+            },
+            {
+              "slow_fall": "!q.is_on_ground"
+            },
+            {
+              "walking2": "query.is_on_ground && !query.is_sitting && math.random(1,10) > 5"
+            },
+            {
+              "sitting": "query.is_sitting"
+            }
+          ],
+          "on_entry": [
+            "/execute @e[r=2,type=goodlord:aveo_drake] ~ ~ ~ effect @s slowness 1 3 true"
+          ]
+        },
+        "walking2": {
+          "transitions": [
+            {
+              "jumping": "q.vertical_speed > 12 && q.has_rider && !q.is_on_ground"
+            },          
+            {
+              "walking": "math.random(1,10) > 8"
+            }
+          ],
+          "on_entry": [
+            "/execute @e[r=2,type=goodlord:aveo_drake] ~ ~ ~ effect @s slowness 1 3 true"
+          ]
+        },
+        "sitting": {
+          "transitions": [
+            {
+              "walking": "query.is_on_ground && !q.is_sitting"
+            },
+            {
+              "sitting2": "query.is_sitting"
+            }
+          ]
+        },
+        "sitting2": {
+          "transitions": [
+            {
+              "sitting": "math.random(1,10) > 8"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "goodlord:fan_wyvern": {
+        "events" : {
+          "ambient" : {
+            "sound": "mob.fan_wyvern.idle",
+            "volume": 0.7
+          },
+          "attack": "mob.fan_wyvern.attack",
+          "hurt": "mob.fan_wyvern.hurt",
+          "step" : {
+            "sound": "mob.ravager.step",
+            "pitch" : [ 0.70, 0.8 ],
+            "volume": 0.7
+          },
+          "death": "mob.fan_wyvern.death"
+        },
+        "pitch" : [ 0.90, 1.15 ],
+        "volume" : 1.0
+      },
+      "goodlord:aveo_drake": {
+        "events" : {
+          "ambient" : {
+            "sound": "mob.fan_wyvern.idle",
+            "volume": 0.7
+          },
+          "attack": "mob.fan_wyvern.attack",
+          "hurt": "mob.fan_wyvern.hurt",
+          "step" : {
+            "sound": "mob.ravager.step",
+            "pitch" : [ 0.70, 0.8 ],
+            "volume": 0.7
+          },
+          "death": "mob.fan_wyvern.death"
+        },
+        "pitch" : [ 0.70, 0.80 ],
+        "volume" : 1.0
+      },
+      "goodlord:aveo_dragon": {
+        "events" : {
+          "ambient" : {
+            "sound": "mob.fan_wyvern.idle",
+            "volume": 0.7
+          },
+          "attack": "mob.fan_wyvern.attack",
+          "hurt": "mob.fan_wyvern.hurt",
+          "step" : {
+            "sound": "mob.ravager.step",
+            "pitch" : [ 0.70, 0.8 ],
+            "volume": 0.7
+          },
+          "death": "mob.fan_wyvern.death"
+        },
+        "pitch" : [ 1.25, 1.4 ],
+        "volume" : 1.0
+      },
+      "goodlord:snow_walker": {
+        "events" : {
+          "ambient" : {
+            "sound": "mob.snow_walker.idle",
+            "volume": 1.0
+          },
+          "attack": "mob.snow_walker.attack",
+          "hurt": "mob.snow_walker.hurt",
+          "step" : {
+            "sound": "mob.snow_walker.idle",
+            "pitch" : [ 0.70, 0.8 ],
+            "volume": 0.7
+          },
+          "death": "mob.snow_walker.death",
+          "roar" : "mob.snow_walker.attack"
+        },
+        "pitch" : [ 0.80, 1.20 ],
+        "volume" : 1.0
+      }
+    }
+  }
+}	  
+	  

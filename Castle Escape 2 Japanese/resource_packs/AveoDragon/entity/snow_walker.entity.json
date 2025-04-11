@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "goodlord:snow_walker",
+      "materials": {
+        "default": "spider"
+      },
+      "textures": {
+        "snow_walker1": "textures/entity/snow_walker/snow_walker1",
+        "snow_walker2": "textures/entity/snow_walker/snow_walker2",
+        "snow_walker3": "textures/entity/snow_walker/snow_walker3"
+      },
+      "geometry": {
+        "default": "geometry.snow_walker"
+      },
+      "scripts": {
+        "pre_animation": [
+           "variable.snow_walker.attack = query.is_delayed_attacking;"
+        ]
+      },
+      "animations": {
+        "walk": "animation.snow_walker.walk",
+        "attack": "animation.snow_walker.attack",
+        "look_at_target": "animation.snow_walker.look_at_target"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.snow_walker.move" },
+        { "look_at_target": "controller.animation.snow_walker.look_at_target" }
+      ],
+      "render_controllers": [
+        "controller.render.snow_walker"
+      ],
+	    "spawn_egg": {
+        "texture": "snow_walker",
+        "texture_index": 0
+      }
+    }
+  }
+}

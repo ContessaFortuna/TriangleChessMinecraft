@@ -52,6 +52,29 @@
 	
 	{
 		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.16.220",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.16.220"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "WI7/nXkUVR+A20caqX+NcXnMFOR3iufJckzpSUSCuEs=" ],
+		"path" : "resource_packs/AveoDragon",
+		"uuid" : "a0588ee1-c918-4edc-beef-8ae6744ee171",
+		"version" : "6.8.13"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
 		"path" : "behavior_packs/vanilla_1.20.20",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.20.20"
@@ -62,13 +85,6 @@
 		"path" : "behavior_packs/vanilla_1.17.40",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.17.40"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "0.0.1"
 	},
 	
 	{
@@ -127,13 +143,6 @@
 		"path" : "behavior_packs/vanilla_1.16",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.16.0"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.16.220",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.16.220"
 	},
 	
 	{
@@ -318,6 +327,15 @@
 		"path" : "behavior_packs/vanilla_1.20.72",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.20.72"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "kH8NMHNW5qGHb6lXg0VE/yEcj9dYQkWcH51PkRVasJ4=" ],
+		"path" : "behavior_packs/AveoDragon",
+		"uuid" : "9a831caa-fa76-44fd-9c2f-f5510812f878",
+		"version" : "6.8.13"
 	},
 	
 	{

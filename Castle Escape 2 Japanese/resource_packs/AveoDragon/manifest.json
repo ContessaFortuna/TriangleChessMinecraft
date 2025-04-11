@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Aveo Dragon (resource)",
+    "description": "Aveo the (sometimes) friendly wyvern",
+    "uuid": "a0588ee1-c918-4edc-beef-8ae6744ee171",
+    "version": [6, 8, 13]    
+  },
+  "modules": [
+    {
+      "description": "Big Cats",
+      "type": "resources",
+      "uuid": "1bb005fa-0672-45e0-917b-bb765fe7729b",
+      "version": [6, 8, 13]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9a831caa-fa76-44fd-9c2f-f5510812f878",
+      "version": [6, 8, 13]
+    }
+  ]
+}

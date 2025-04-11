@@ -1,0 +1,92 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "goodlord:fan_wyvern",
+      "materials": {
+        "default": "cat"
+      },
+      "textures": {
+        "fan_wyvern0": "textures/entity/fan_wyvern/fan_wyvern",
+        "fan_wyvern0_saddled": "textures/entity/fan_wyvern/fan_wyvern_saddle",
+        "fan_wyvern0_armored": "textures/entity/fan_wyvern/fan_wyvern_armour",
+        "fan_wyvern0_armoredsaddled": "textures/entity/fan_wyvern/fan_wyvern_saddle_armour",
+        "fan_wyvern1": "textures/entity/fan_wyvern/fan_wyvern2",
+        "fan_wyvern1_saddled": "textures/entity/fan_wyvern/fan_wyvern2_saddle",
+        "fan_wyvern1_armored": "textures/entity/fan_wyvern/fan_wyvern2_armour",
+        "fan_wyvern1_armoredsaddled": "textures/entity/fan_wyvern/fan_wyvern2_saddle_armour",
+        "fan_wyvern2": "textures/entity/fan_wyvern/fan_wyvern3",
+        "fan_wyvern2_saddled": "textures/entity/fan_wyvern/fan_wyvern3_saddle",
+        "fan_wyvern2_armored": "textures/entity/fan_wyvern/fan_wyvern3_armour",
+        "fan_wyvern2_armoredsaddled": "textures/entity/fan_wyvern/fan_wyvern3_saddle_armour",
+        "fan_wyvern3": "textures/entity/fan_wyvern/fan_wyvern4",
+        "fan_wyvern3_saddled": "textures/entity/fan_wyvern/fan_wyvern4_saddle",
+        "fan_wyvern3_armored": "textures/entity/fan_wyvern/fan_wyvern4_armour",
+        "fan_wyvern3_armoredsaddled": "textures/entity/fan_wyvern/fan_wyvern4_saddle_armour",
+        "fan_wyvern4": "textures/entity/fan_wyvern/fan_wyvern5",
+        "fan_wyvern4_saddled": "textures/entity/fan_wyvern/fan_wyvern5_saddle",
+        "fan_wyvern4_armored": "textures/entity/fan_wyvern/fan_wyvern5_armour",
+        "fan_wyvern4_armoredsaddled": "textures/entity/fan_wyvern/fan_wyvern5_saddle_armour",
+        "fan_wyvern5": "textures/entity/fan_wyvern/fan_wyvern6",
+        "fan_wyvern5_saddled": "textures/entity/fan_wyvern/fan_wyvern6_saddle",
+        "fan_wyvern5_armored": "textures/entity/fan_wyvern/fan_wyvern6_armour",
+        "fan_wyvern5_armoredsaddled": "textures/entity/fan_wyvern/fan_wyvern6_saddle_armour"
+      },
+      "geometry": {
+        "default": "geometry.fan_wyvern"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.fan_wyvern.attack = query.has_target && !query.is_sitting && !query.has_rider;",
+          "variable.fan_wyvern.sitting = query.is_sitting;"
+        ]
+      },
+      "animations": {
+        "dive_down": "animation.fan_wyvern.dive_down",
+        "dive": "animation.fan_wyvern.dive",
+        "glyde": "animation.fan_wyvern.glyde",
+        "shut": "animation.fan_wyvern.shut",
+        "sleep": "animation.fan_wyvern.sleep",
+        "walk": "animation.fan_wyvern.walk",
+        "sit": "animation.fan_wyvern.sit",
+        "fly": "animation.fan_wyvern.fly",
+        "swim": "animation.fan_wyvern.swim",
+        "attack": "animation.fan_wyvern.attack",
+        "look_at_target": "animation.fan_wyvern.look_at_target",
+        "blink": "animation.fan_wyvern.blink",
+        "breathe": "animation.fan_wyvern.breathe",
+        "baby_transform": "animation.fan_wyvern.baby_transform"
+      },
+      "animation_controllers": [
+        {
+          "dive_down": "controller.animation.fan_wyvern.dive_down"
+        },
+        {
+          "attack": "controller.animation.fan_wyvern.attack"
+        },
+        {
+          "breathe": "controller.animation.fan_wyvern.breathe"
+        },
+        {
+          "blink": "controller.animation.fan_wyvern.blink"
+        },
+        {
+          "move": "controller.animation.fan_wyvern.move"
+        },
+        {
+          "look_at_target": "controller.animation.fan_wyvern.look_at_target"
+        },
+        {
+          "baby": "controller.animation.fan_wyvern.baby"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.fan_wyvern"
+      ],
+      "spawn_egg": {
+        "base_color": "#a39982",
+        "overlay_color": "#f5ceb4"
+      }
+    }
+  }
+}

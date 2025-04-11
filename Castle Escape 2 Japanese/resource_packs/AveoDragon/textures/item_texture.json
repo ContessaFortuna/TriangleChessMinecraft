@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "netherite_dragon_armor": {
+      "textures": "textures/items/netherite_dragon_armor"
+    },
+    "snow_walker": {
+      "textures": "textures/items/snow_walker"
+    }
+  }
+}

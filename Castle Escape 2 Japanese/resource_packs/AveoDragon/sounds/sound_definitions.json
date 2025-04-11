@@ -1,0 +1,76 @@
+{
+  "mob.fan_wyvern.idle": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/fan_wyvern/idle1",
+      "sounds/mob/fan_wyvern/idle2",
+      "sounds/mob/fan_wyvern/idle3"
+    ]
+  },
+  "mob.fan_wyvern.attack": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/fan_wyvern/attack1"
+    ]
+  },
+  "mob.fan_wyvern.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/fan_wyvern/hurt1"
+    ]
+  },
+  "mob.fan_wyvern.death": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/fan_wyvern/death1"
+    ]
+  },
+  "goodlord.dragon_fast_flap": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/mob/fan_wyvern/flap1",
+        "stream": true,
+        "volume": 0.85,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "goodlord.dragon_wind": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/mob/fan_wyvern/wind4",
+        "stream": true,
+        "volume": 0.95,
+        "pitch" : [ 0.70, 1.35 ]
+      }
+    ]
+  },
+  "mob.snow_walker.idle": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/snow_walker/idle1",
+      "sounds/mob/snow_walker/idle2",
+      "sounds/mob/snow_walker/idle3"
+    ]
+  },
+  "mob.snow_walker.attack": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/snow_walker/attack1"
+    ]
+  },
+  "mob.snow_walker.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/snow_walker/hurt1"
+    ]
+  },
+  "mob.snow_walker.death": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/mob/snow_walker/death1"
+    ]
+  }
+}

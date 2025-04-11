@@ -1,0 +1,1 @@
+execute @e[r=2,type=goodlord:fan_wyvern] ~ ~ ~ effect @s slowness 2 3 true

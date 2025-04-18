@@ -22,7 +22,8 @@
 			"ZpvNvaXdkFbjBAJftI/quWIdGVMLGLoffyRs97pYEXg=",
 			"dd5L3bGEux74oeL0fwRcRqGmbZoE6LWPXC2NjSgkvX0=",
 			"kiUJobs31lo6xSlIiIMFr7Uq40aZx/6k6ogma492WMU=",
-			"dpJjU3PFqD5eg6C1CYeRzCO1DPRhZrfao/1Z9bqzyiE="
+			"dpJjU3PFqD5eg6C1CYeRzCO1DPRhZrfao/1Z9bqzyiE=",
+			"04DcM3Dn7DAcwKYFthEytDZUhdYW1xHZoGjs3isG4iM="
 		],
 		"path" : "development_behavior_packs/Lootcrates",
 		"uuid" : "2de7b1f3-eac8-4900-96b7-fbb27c1fd9b1",
@@ -60,7 +61,11 @@
 	{
 		"file_system" : "RawPath",
 		"from_disk" : true,
-		"hashes" : [ "WI7/nXkUVR+A20caqX+NcXnMFOR3iufJckzpSUSCuEs=" ],
+		"hashes" : 
+		[
+			"WI7/nXkUVR+A20caqX+NcXnMFOR3iufJckzpSUSCuEs=",
+			"2sA4HmZGz2CafLDgt9Ny2igII8Dz09GiybdcaFT6kwY="
+		],
 		"path" : "resource_packs/AveoDragon",
 		"uuid" : "a0588ee1-c918-4edc-beef-8ae6744ee171",
 		"version" : "6.8.13"
@@ -332,7 +337,11 @@
 	{
 		"file_system" : "RawPath",
 		"from_disk" : true,
-		"hashes" : [ "kH8NMHNW5qGHb6lXg0VE/yEcj9dYQkWcH51PkRVasJ4=" ],
+		"hashes" : 
+		[
+			"kH8NMHNW5qGHb6lXg0VE/yEcj9dYQkWcH51PkRVasJ4=",
+			"Sllnhc30PV+LtpdTg5g9U5Paj5WG7jlxuABNlESbgMc="
+		],
 		"path" : "behavior_packs/AveoDragon",
 		"uuid" : "9a831caa-fa76-44fd-9c2f-f5510812f878",
 		"version" : "6.8.13"

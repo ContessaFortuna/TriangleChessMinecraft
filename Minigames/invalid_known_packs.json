@@ -1,0 +1,97 @@
+
+[
+	
+	{
+		"file_version" : 2
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "x7UBmu7a7Fu0lYNmE1bMb5QSDAo6EpRosJvcUmBocRk=" ],
+		"path" : "behavior_packs/vanilla_1.21.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.30"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "syo4K1S8Nalji45W1Cy5oSCKeidKijqSnLE+uH24oj8=" ],
+		"path" : "behavior_packs/vanilla_1.21.81",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.81"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "OdRFsif+e7KsYrIu86uZ9/vC6am5jP38EeusnEjs8kU=" ],
+		"path" : "behavior_packs/vanilla_1.21.10",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.10"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "P6piNzbdtPeptIaeOaJ7K2N7eI2EShWrdpZ2btFrevA=" ],
+		"path" : "behavior_packs/vanilla_1.21.40",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.40"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "LQivKz4zFdX2O79Hh0ruChhzhTiFkYlPWOSCKMjBofs=" ],
+		"path" : "behavior_packs/vanilla_1.21.70",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.70"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "B9gWL+XtOZrXYlRVAldTjM5mSN/6HmOokHSm/kjkZWw=" ],
+		"path" : "behavior_packs/vanilla_1.21.60",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.60"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "Tv6gQLtdujg9tA15xP81NXJ380KwQ4HmKPO/nGhbBoQ=" ],
+		"path" : "behavior_packs/vanilla_1.21.20",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.20"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "enFVhYmEMcgw51PMC3OOA2sc8ubUCc4G0oWe3znYOtU=" ],
+		"path" : "behavior_packs/vanilla_1.20.80",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.20.80"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "TCN81JgPHWn3K2++gkt9zGaN030fjJBk+cfuGYgu0RM=" ],
+		"path" : "behavior_packs/vanilla_1.21.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "srIkCU0x56ts0PKS9Z7ar9WQwil0f/3gu2txpWpGbr8=" ],
+		"path" : "behavior_packs/vanilla_1.21.50",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.50"
+	}
+]

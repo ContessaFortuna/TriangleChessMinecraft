@@ -1,0 +1,13 @@
+--DESCRIPTION--
+Castle Escape is an 'escape room' type map where players will navigate through a castle in order to eventually escape.
+Along the way, players find chests which provide gear that they use to fight monsters along the way.
+Chests automatically refill every two and a half minutes.
+Players will reach checkpoints which allow them to respawn along the way.
+They will also be provided torches which can be used to disable mob spawners.
+
+--USEFUL COMMANDS--
+/scoreboard players set refill_target timer <time>: Sets the amount of time before chests refill in Minecraft ticks (20/s). Default 3000 (20ticks/sec*60secs/min*2.5min)
+/difficulty <peaceful/easy/normal/hard>: Easy is the default and recommended difficulty. Peaceful for no mobs (only for exploration) and Normal/Hard for a much greater challenge.
+
+Win Geigerman and Adam Schrand, 2025
+Call (919)-841-3882, email wgeigerman@gmail.com, or email adam.schrand@gmail.com for any questions/issues
